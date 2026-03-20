@@ -1,0 +1,249 @@
+{
+  "nodes": [
+    {
+      "_key": "13244891",
+      "_id": "log_distance_tree_K09_node/13244891",
+      "_rev": "_fDJAlP----",
+      "height": 0.5,
+      "root": true
+    },
+    {
+      "_key": "13244911",
+      "_id": "log_distance_tree_K09_node/13244911",
+      "_rev": "_fDJAlRG---",
+      "height": 0.29277352713821253
+    },
+    {
+      "_key": "13244931",
+      "_id": "log_distance_tree_K09_node/13244931",
+      "_rev": "_fDJAlZq--_",
+      "height": 0,
+      "leaf": true,
+      "elements": [
+        {
+          "id": "log_configurations/9213523",
+          "label": "A1121D0022"
+        },
+        {
+          "id": "log_configurations/testconfig",
+          "label": "testconfig"
+        }
+      ]
+    },
+    {
+      "_key": "13244956",
+      "_id": "log_distance_tree_K09_node/13244956",
+      "_rev": "_fDJAlcO---",
+      "height": 0.26362013242351073
+    },
+    {
+      "_key": "13244981",
+      "_id": "log_distance_tree_K09_node/13244981",
+      "_rev": "_fDJAlhO---",
+      "height": 0.2485008412341132
+    },
+    {
+      "_key": "13245000",
+      "_id": "log_distance_tree_K09_node/13245000",
+      "_rev": "_fDJAllO---",
+      "height": 0.18944099378881987
+    },
+    {
+      "_key": "13245021",
+      "_id": "log_distance_tree_K09_node/13245021",
+      "_rev": "_fDJAlpK---",
+      "height": 0.215241929933237
+    },
+    {
+      "_key": "13245046",
+      "_id": "log_distance_tree_K09_node/13245046",
+      "_rev": "_fDJAly6---",
+      "height": 0,
+      "leaf": true,
+      "elements": [
+        {
+          "id": "log_configurations/9213524",
+          "label": "A1121D0010"
+        }
+      ]
+    },
+    {
+      "_key": "13245071",
+      "_id": "log_distance_tree_K09_node/13245071",
+      "_rev": "_fDJAl52---",
+      "height": 0,
+      "leaf": true,
+      "elements": [
+        {
+          "id": "log_configurations/9213528",
+          "label": "A1121D0003"
+        }
+      ]
+    },
+    {
+      "_key": "13245095",
+      "_id": "log_distance_tree_K09_node/13245095",
+      "_rev": "_fDJAmAe---",
+      "height": 0,
+      "leaf": true,
+      "elements": [
+        {
+          "id": "log_configurations/9213522",
+          "label": "A1121D0019"
+        }
+      ]
+    },
+    {
+      "_key": "13245120",
+      "_id": "log_distance_tree_K09_node/13245120",
+      "_rev": "_fDJAmIG---",
+      "height": 0,
+      "leaf": true,
+      "elements": [
+        {
+          "id": "log_configurations/9213526",
+          "label": "A1121D0011"
+        }
+      ]
+    },
+    {
+      "_key": "13245143",
+      "_id": "log_distance_tree_K09_node/13245143",
+      "_rev": "_fDJAmK6---",
+      "height": 0.18421052631578946
+    },
+    {
+      "_key": "13245159",
+      "_id": "log_distance_tree_K09_node/13245159",
+      "_rev": "_fDJAmT6---",
+      "height": 0,
+      "leaf": true,
+      "elements": [
+        {
+          "id": "log_configurations/9213527",
+          "label": "A1121D0013"
+        }
+      ]
+    },
+    {
+      "_key": "13245183",
+      "_id": "log_distance_tree_K09_node/13245183",
+      "_rev": "_fDJAmaG---",
+      "height": 0,
+      "leaf": true,
+      "elements": [
+        {
+          "id": "log_configurations/9213525",
+          "label": "A1121D0014"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "_key": "13244921",
+      "_id": "log_distance_tree_K09_edge/13244921",
+      "_from": "log_distance_tree_K09_node/13244931",
+      "_to": "log_distance_tree_K09_node/13245046",
+      "_rev": "_fDJAlTO---",
+      "height": 0.29277352713821253
+    },
+    {
+      "_key": "13244940",
+      "_id": "log_distance_tree_K09_edge/13244940",
+      "_from": "log_distance_tree_K09_node/13244891",
+      "_to": "log_distance_tree_K09_node/13244931",
+      "_rev": "_fDJAlXe---",
+      "height": 0
+    },
+    {
+      "_key": "13244969",
+      "_id": "log_distance_tree_K09_edge/13244969",
+      "_from": "log_distance_tree_K09_node/13244911",
+      "_to": "log_distance_tree_K09_node/13244956",
+      "_rev": "_fDJAleu--_",
+      "height": 0.26362013242351073
+    },
+    {
+      "_key": "13244991",
+      "_id": "log_distance_tree_K09_edge/13244991",
+      "_from": "log_distance_tree_K09_node/13244956",
+      "_to": "log_distance_tree_K09_node/13244981",
+      "_rev": "_fDJAljO---",
+      "height": 0.2485008412341132
+    },
+    {
+      "_key": "13245013",
+      "_id": "log_distance_tree_K09_edge/13245013",
+      "_from": "log_distance_tree_K09_node/13244956",
+      "_to": "log_distance_tree_K09_node/13245000",
+      "_rev": "_fDJAlnO--_",
+      "height": 0.18944099378881987
+    },
+    {
+      "_key": "13245034",
+      "_id": "log_distance_tree_K09_edge/13245034",
+      "_from": "log_distance_tree_K09_node/13244981",
+      "_to": "log_distance_tree_K09_node/13245021",
+      "_rev": "_fDJAlrK--_",
+      "height": 0.215241929933237
+    },
+    {
+      "_key": "13245056",
+      "_id": "log_distance_tree_K09_edge/13245056",
+      "_from": "log_distance_tree_K09_node/13244981",
+      "_to": "log_distance_tree_K09_node/13245046",
+      "_rev": "_fDJAlwS---",
+      "height": 0
+    },
+    {
+      "_key": "13245079",
+      "_id": "log_distance_tree_K09_edge/13245079",
+      "_from": "log_distance_tree_K09_node/13245000",
+      "_to": "log_distance_tree_K09_node/13245071",
+      "_rev": "_fDJAl3K---",
+      "height": 0
+    },
+    {
+      "_key": "13245103",
+      "_id": "log_distance_tree_K09_edge/13245103",
+      "_from": "log_distance_tree_K09_node/13245000",
+      "_to": "log_distance_tree_K09_node/13245095",
+      "_rev": "_fDJAm-G---",
+      "height": 0
+    },
+    {
+      "_key": "13245128",
+      "_id": "log_distance_tree_K09_edge/13245128",
+      "_from": "log_distance_tree_K09_node/13245021",
+      "_to": "log_distance_tree_K09_node/13245120",
+      "_rev": "_fDJAmF2---",
+      "height": 0
+    },
+    {
+      "_key": "13245150",
+      "_id": "log_distance_tree_K09_edge/13245150",
+      "_from": "log_distance_tree_K09_node/13245021",
+      "_to": "log_distance_tree_K09_node/13245143",
+      "_rev": "_fDJAmNu---",
+      "height": 0.18421052631578946
+    },
+    {
+      "_key": "13245167",
+      "_id": "log_distance_tree_K09_edge/13245167",
+      "_from": "log_distance_tree_K09_node/13245143",
+      "_to": "log_distance_tree_K09_node/13245159",
+      "_rev": "_fDJAmRy---",
+      "height": 0
+    },
+    {
+      "_key": "13245204",
+      "_id": "log_distance_tree_K09_edge/13245204",
+      "_from": "log_distance_tree_K09_node/13245143",
+      "_to": "log_distance_tree_K09_node/13245183",
+      "_rev": "_fDJAmX6---",
+      "height": 0
+    }
+  ]
+}
+

@@ -1,0 +1,136 @@
+<style>
+  body {
+    background-color: grey;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+  }
+
+  #viewport {
+    display: block;
+    position: relative;
+    background-color: red;
+    width: 1000px;
+    height: 500px;
+    overflow: hidden !important;
+  }
+
+  #view {
+    position: relative;
+    width: 1000px;
+    height: 500px;
+    transform-origin: top left;
+  }
+
+  #image {
+    position: absolute;
+    width: 100%; /* or the desired width */
+    height: 100%; /* or the desired height */
+    top: 0;
+    left: 0;
+  }
+</style>
+
+<div id="viewport">
+  <img src="https://quickei.io/public/assets/images/about-popup.png" id="image" />
+  <div id="view"></div>
+</div>
+<div>
+  <button onclick="zoomIn()">zoom in</button>
+  <button onclick="zoomOut()">zoom out</button>
+  <button onclick="resetZoom()">reset and center</button>
+</div>
+
+<script>
+  const viewport = document.getElementById("viewport");
+  const view = document.getElementById("view");
+  const image = document.getElementById("image");
+  let isDragging = false;
+  let lastMouseX;
+  let lastMouseY;
+  let scale = 1;
+
+  viewport.addEventListener("touchstart", handleTouchStart);
+  viewport.addEventListener("touchmove", handleTouchMove);
+
+  function handleTouchStart(e) {
+    if (e.touches.length === 1) {
+      isDragging = true;
+      lastTouchX = e.touches[0].clientX;
+      lastTouchY = e.touches[0].clientY;
+    }
+  }
+
+  function handleTouchMove(e) {
+    if (isDragging && e.touches.length === 1) {
+      const deltaX = lastTouchX - e.touches[0].clientX;
+      const deltaY = lastTouchY - e.touches[0].clientY;
+      lastTouchX = e.touches[0].clientX;
+      lastTouchY = e.touches[0].clientY;
+
+      view.style.left = `${parseInt(view.style.left || 0) - deltaX}px`;
+      view.style.top = `${parseInt(view.style.top || 0) - deltaY}px`;
+
+      image.style.left = `${parseInt(image.style.left || 0) - deltaX}px`;
+      image.style.top = `${parseInt(image.style.top || 0) - deltaY}px`;
+    }
+  }
+
+
+
+  viewport.addEventListener("mousedown", function (ev) {
+    if (ev.which === 1) {
+      isDragging = true;
+    }
+  });
+
+  document.querySelector("html").addEventListener("mouseup", function (ev) {
+    if (ev.which === 1) {
+      isDragging = false;
+    }
+  });
+
+  viewport.addEventListener("mousemove", function (e) {
+    const deltaX = lastMouseX - e.clientX;
+    const deltaY = lastMouseY - e.clientY;
+
+    lastMouseX = e.clientX;
+    lastMouseY = e.clientY;
+
+    if (isDragging) {
+      view.style.left = `${parseInt(view.style.left || 0) - deltaX}px`;
+      view.style.top = `${parseInt(view.style.top || 0) - deltaY}px`;
+
+      image.style.left = `${parseInt(image.style.left || 0) - deltaX}px`;
+      image.style.top = `${parseInt(image.style.top || 0) - deltaY}px`;
+    }
+  });
+
+  function zoomIn() {
+    scale *= 1.2;
+    applyZoom();
+  }
+
+  function zoomOut() {
+    scale /= 1.2;
+    applyZoom();
+  }
+
+  function resetZoom() {
+    scale = 1;
+    applyZoom();
+    centerImage();
+  }
+
+  function applyZoom() {
+    view.style.transform = `scale(${scale})`;
+    image.style.transform = `scale(${scale})`;
+  }
+
+  function centerImage() {
+    view.style.left = "0";
+    view.style.top = "0";
+    image.style.left = "0";
+    image.style.top = "0";
+  }
+</script>

@@ -1,0 +1,186 @@
+[
+  {
+    "nodes": [
+      {
+        "_key": "21361670",
+        "_id": "log_distance_tree_S20_node/21361670",
+        "_rev": "_gHBt7te---",
+        "_created": 1686058825345,
+        "_type": "dendrogram_node",
+        "_model": "models/21361525",
+        "height": 0.5,
+        "root": true
+      },
+      {
+        "_key": "21361708",
+        "_id": "log_distance_tree_S20_node/21361708",
+        "_rev": "_gHBt7t6--_",
+        "_created": 1686058825345,
+        "_type": "dendrogram_node",
+        "_model": "models/21361525",
+        "height": 0.27840340340340347
+      },
+      {
+        "_key": "21361760",
+        "_id": "log_distance_tree_S20_node/21361760",
+        "_rev": "_gHBt7vu--_",
+        "_created": 1686058825345,
+        "_type": "dendrogram_node",
+        "_model": "models/21361525",
+        "height": 0,
+        "leaf": true,
+        "elements": [
+          {
+            "key": "log_configurations/9213573",
+            "label": "A1035D0002"
+          }
+        ]
+      },
+      {
+        "_key": "21361823",
+        "_id": "log_distance_tree_S20_node/21361823",
+        "_rev": "_gHBt7v6--_",
+        "_created": 1686058825345,
+        "_type": "dendrogram_node",
+        "_model": "models/21361525",
+        "height": 0.18073716900948023
+      },
+      {
+        "_key": "21361864",
+        "_id": "log_distance_tree_S20_node/21361864",
+        "_rev": "_gHBt7wq---",
+        "_created": 1686058825345,
+        "_type": "dendrogram_node",
+        "_model": "models/21361525",
+        "height": 0,
+        "leaf": true,
+        "elements": [
+          {
+            "key": "log_configurations/9213571",
+            "label": "A1035D0008"
+          }
+        ]
+      },
+      {
+        "_key": "21361901",
+        "_id": "log_distance_tree_S20_node/21361901",
+        "_rev": "_gHBt7xC---",
+        "_created": 1686058825345,
+        "_type": "dendrogram_node",
+        "_model": "models/21361525",
+        "height": 0.13385826771653545
+      },
+      {
+        "_key": "21361911",
+        "_id": "log_distance_tree_S20_node/21361911",
+        "_rev": "_gHBt7xu---",
+        "_created": 1686058825345,
+        "_type": "dendrogram_node",
+        "_model": "models/21361525",
+        "height": 0,
+        "leaf": true,
+        "elements": [
+          {
+            "key": "log_configurations/9213570",
+            "label": "A1035D0007"
+          }
+        ]
+      },
+      {
+        "_key": "21361935",
+        "_id": "log_distance_tree_S20_node/21361935",
+        "_rev": "_gHBt7yS---",
+        "_created": 1686058825345,
+        "_type": "dendrogram_node",
+        "_model": "models/21361525",
+        "height": 0,
+        "leaf": true,
+        "elements": [
+          {
+            "key": "log_configurations/9213572",
+            "label": "A1035D0013"
+          }
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "_key": "21361728",
+        "_id": "log_distance_tree_S20_edge/21361728",
+        "_from": "log_distance_tree_S20_node/21361670",
+        "_to": "log_distance_tree_S20_node/21361708",
+        "_rev": "_gHBt7um--A",
+        "_created": 1686058825345,
+        "_type": "dendrogram_edge",
+        "weight": 0.22159659659659653,
+        "_model": "models/21361525"
+      },
+      {
+        "_key": "21361769",
+        "_id": "log_distance_tree_S20_edge/21361769",
+        "_from": "log_distance_tree_S20_node/21361708",
+        "_to": "log_distance_tree_S20_node/21361760",
+        "_rev": "_gHBt7ve---",
+        "_created": 1686058825345,
+        "_type": "dendrogram_edge",
+        "weight": 0.27840340340340347,
+        "_model": "models/21361525"
+      },
+      {
+        "_key": "21361852",
+        "_id": "log_distance_tree_S20_edge/21361852",
+        "_from": "log_distance_tree_S20_node/21361708",
+        "_to": "log_distance_tree_S20_node/21361823",
+        "_rev": "_gHBt7wG--_",
+        "_created": 1686058825345,
+        "_type": "dendrogram_edge",
+        "weight": 0.09766623439392325,
+        "_model": "models/21361525"
+      },
+      {
+        "_key": "21361875",
+        "_id": "log_distance_tree_S20_edge/21361875",
+        "_from": "log_distance_tree_S20_node/21361823",
+        "_to": "log_distance_tree_S20_node/21361864",
+        "_rev": "_gHBt7we---",
+        "_created": 1686058825345,
+        "_type": "dendrogram_edge",
+        "weight": 0.18073716900948023,
+        "_model": "models/21361525"
+      },
+      {
+        "_key": "21361906",
+        "_id": "log_distance_tree_S20_edge/21361906",
+        "_from": "log_distance_tree_S20_node/21361823",
+        "_to": "log_distance_tree_S20_node/21361901",
+        "_rev": "_gHBt7xK---",
+        "_created": 1686058825345,
+        "_type": "dendrogram_edge",
+        "weight": 0.04687890129294478,
+        "_model": "models/21361525"
+      },
+      {
+        "_key": "21361917",
+        "_id": "log_distance_tree_S20_edge/21361917",
+        "_from": "log_distance_tree_S20_node/21361901",
+        "_to": "log_distance_tree_S20_node/21361911",
+        "_rev": "_gHBt7xi---",
+        "_created": 1686058825345,
+        "_type": "dendrogram_edge",
+        "weight": 0.13385826771653545,
+        "_model": "models/21361525"
+      },
+      {
+        "_key": "21361940",
+        "_id": "log_distance_tree_S20_edge/21361940",
+        "_from": "log_distance_tree_S20_node/21361901",
+        "_to": "log_distance_tree_S20_node/21361935",
+        "_rev": "_gHBt7yG---",
+        "_created": 1686058825345,
+        "_type": "dendrogram_edge",
+        "weight": 0.13385826771653545,
+        "_model": "models/21361525"
+      }
+    ]
+  }
+]
